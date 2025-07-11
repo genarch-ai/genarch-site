@@ -1,34 +1,57 @@
 
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #0e0e0e;
-    color: #f0f0f0;
-    text-align: center;
-    padding: 0 20px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  text-align: center;
 }
+
 header {
-    padding: 40px 0;
+  padding: 60px 20px 30px;
+  background-color: #0a0a0a;
 }
-h1.neon {
-    font-size: 2.8rem;
-    color: #00fff7;
-    text-shadow: 0 0 8px #00fff7, 0 0 20px #007d7d;
+
+header h1 {
+  font-size: 3em;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+  margin: 0;
 }
-.typing {
-    font-size: 1.2rem;
-    color: #ccc;
-    margin-top: 10px;
-    height: 24px;
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #ccc;
 }
-main {
-    margin-top: 40px;
+
+.illustration img {
+  width: 250px;
+  margin: 30px auto;
 }
+
 section {
-    margin-bottom: 50px;
+  padding: 30px 20px;
+  border-top: 1px solid #222;
 }
-.lottie-container {
-    margin: 20px auto;
-    width: 300px;
-    height: 300px;
+
+section h2 {
+  font-size: 2em;
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+section p, section ul {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1em;
+  color: #ddd;
+}
+
+footer {
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+  border-top: 1px solid #222;
 }
